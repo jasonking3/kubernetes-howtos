@@ -52,7 +52,7 @@ Modify the `issuer.yml` file in this repo and change the following:
 
 Create the `letsencrypt-prod` and `letsencrypt-staging` issuers.
 ```
-kubectl apply -f issuers.yml
+kubectl apply -f issuer.yml
 ```
 
 ### Jenkins
