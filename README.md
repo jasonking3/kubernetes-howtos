@@ -65,7 +65,7 @@ master:
     enabled: true
     hostName: jenkins.example.com
     annotations: {
-      kubernetes.io/ingress.class: my-ngnix,
+      kubernetes.io/ingress.class: my-ingress,
       cert-manager.io/issuer: letsencrypt-prod
     }
     path: /
